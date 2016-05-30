@@ -1,0 +1,68 @@
+*{
+  font-family: 'Indie Flower', cursive;  
+  font-size: 25px;
+}
+
+body{
+  background-color: #00796B;
+}
+
+.status{
+  color: #212121;
+  text-decoration: underline;
+}
+
+.row{
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.column{
+  display: table-cell;
+  vertical-align: middle;
+  padding:0 25px 0 25px;
+}
+
+.columnStyle{
+  margin-top: 20px;
+  width: 245px;
+}
+
+.clock{
+  text-align: center;
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+#breakLength,
+#sessionLength{
+  color: #212121;
+}
+
+button{
+  border: 0;
+  outline:none;
+  color: #FFC107;
+  background-color: #00796B;
+}
+
+button:hover{
+  color: #212121;
+}
+
+.fa-undo,
+.fa-pause,
+.fa-play{
+  vertical-align: middle;
+}
+
+.resetBtn,
+.startBtn{
+  width: 75px;
+  background-color: #00796B;
+  color: #FFC107;
+  border: 2px solid #FFC107;
+}
