@@ -1,0 +1,136 @@
+*{
+  font-family: 'Indie Flower', cursive;  
+}
+
+body{
+  background-image: url('https://www.dropbox.com/s/micgotgp6tyzebz/FC_Wood.jpg?raw=1');
+}
+
+h2{
+  margin-bottom:0;
+  margin-top:0;
+}
+
+table{
+  text-align:center;
+  margin-top: 10px;
+}
+
+td{
+  width:250px;
+  height: 250px;
+    border-collapse:collapse;
+}
+
+.simonGame{
+  margin: 0 auto;
+  text-align:center;
+  width:500px;
+}
+
+.row{
+  display: table;
+  margin: 0 auto;
+  border-spacing: 10px;
+}
+.column{
+  display: table-cell;
+  vertical-align: middle;
+  color:black;
+  font-size:16px;
+}
+.pannel{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+.circle{
+  position: absolute;
+  width:250px;
+  height:250px;
+  border: 8px solid grey;
+  border-radius:50%;
+  background-color: white;
+  text-align:center;
+  margin-top: -375px;
+  margin-left: 125px;;
+}
+
+.m_btn{
+  width: 250px;
+  height:250px;
+  border:0;
+  padding:0;
+}
+
+.startBtn{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  background-color: red;
+}
+
+.strictBtn{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  background-color: yellow;
+  margin-right:0;
+}
+
+.strictBtnStatus{
+  width: 10px;
+  height:10px;
+  border-radius:50%;
+  background-color: red;
+  border: 0;
+  margin-left: -15px;
+}
+
+.scoreboard{
+  font-size: 28px;
+  width: 60px;
+  height: 40px;
+  background-color: rgb(44,2,2);
+  color: red;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 20%;
+}
+
+.btn{
+  font-size: 16px;
+}
+
+.green{
+  background-color: green;
+  border-top-left-radius: 100%;
+  border: 8px solid grey;
+}
+.red{
+  background-color: red;
+  border-top-right-radius: 100%;
+  border: 8px solid grey;
+}
+.yellow{
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+  border: 8px solid grey;
+}
+.blue{
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+  border: 8px solid grey;
+}
+
+button:focus{
+  outline: none;
+}
+
+.victory{
+  text-align: center;
+  font-size: 74px;
+  color:white;
+}
