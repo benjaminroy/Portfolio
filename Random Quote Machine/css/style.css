@@ -1,0 +1,81 @@
+*{
+  font-family: 'Overlock', cursive;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-image: url('https://www.dropbox.com/s/x13pfxj5ldbfelu/FCC%20Einstein.PNG?raw=1');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* ** MOBILE VIEW ** */
+@media only screen and (max-device-width:480px){
+  body{
+    background-image: none;
+    background-color: #5D4037;
+  }
+}
+
+h1{
+  text-decoration: underline;
+  font-size: 45px;
+}
+
+.quote{
+  margin-top: 10%;
+  margin-right: 4%;
+  margin-left: 4%;
+  min-height: 100px;
+  background-color: rgba(25,118,210, 0.15);  
+}
+
+#quotetext{
+  vertical-align: middle;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.author{
+  text-align: right;
+  margin-right: 15%;
+  font-style: italic;
+}
+
+/* BUTTONS */
+#buttongroup{
+  /*position: absolute;
+  top: 75%;
+  right: 0;
+  left: 0;*/
+  margin-top: 8%;
+}
+
+.twitter,
+.random{
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #1976D2;
+  color: white;
+  border-radius: 5%;
+  outline:none;
+}
+
+.twitter:hover,
+.random:hover{
+  border: solid 2px white;
+  background-color:transparent;
+  color: white;
+  outline: 0 !important;
+}
